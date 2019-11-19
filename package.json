@@ -1,0 +1,33 @@
+{
+  "name": "react-paho-mqtt",
+  "version": "1.0.1",
+  "description": "A simple paho-mqtt wrapper in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walterchau/react-paho-mqtt.git"
+  },
+  "author": "Kether Chau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walterchau/react-paho-mqtt/issues"
+  },
+  "homepage": "https://github.com/walterchau/react-paho-mqtt#readme",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "paho-mqtt": "^1.1.0"
+  },
+  "dependencies": {
+  }
+}
